@@ -1,0 +1,26 @@
+
+
+el remoto esta en otro logar
+ahor asubiermos un local a un remoto
+
+
+iniciamos con git init
+
+
+luego usamos el touch
+para crear erchivos
+touch archivo.txt
+
+
+para que se nos abra el repor en VsCode
+$ code .
+
+
+uso , al parexer este sube tidos losnuevos
+git add .
+
+
+git commit -m "mensae"
+
+
+3:26:00

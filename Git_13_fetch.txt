@@ -42,6 +42,12 @@ git fecht
 git switch origin/master
 
 
+entonces veremos Fetch
+a veces usa el merch o no  si el origin master
+o no el remote, etc.
+
+
+
 comit de pruba
 
 
