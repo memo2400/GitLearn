@@ -24,3 +24,50 @@ git commit -m "mensae"
 
 
 3:26:00
+
+
+hacemo un nuevo proyecto desde cero
+luego agregamos las demas cosas ose aun archvio de texto
+luego hacemos tres commits
+
+vamos a gihub hacemos un nuevo repo Vacio
+despues de crearlo nos sale una nueva ventanita que dice como
+podemos hacer un push desde git para agragarlo
+
+
+usamoa eso 
+origin= en lugar de origin podemos poner el nombre que se nos antoje
+git remote add origin https://github.com/memo2400/Ejemplo_Local_a_Remoto.git
+
+
+con esto vemos, cque cosas podemos hacer con nuestro repo remoto
+si nuestro repo no tiene remoto no aparecera nada
+git remote -v
+
+
+despues usamos la segunda sugerida
+git branch -M main
+
+
+ahora vamos a gregar el push si, solo hacemos
+nos sale un mensaje de error
+git push
+
+
+esta no es muy recomandable, porque cada vez que querramos hacer un pussh
+se debe escribir todo
+git push origin main
+
+
+con eso ya en automaticos se guarda el origin main
+y en posteriores solo usaremos git push a secas, 
+git push -u origin main
+
+
+al hacer la anterior linea tuve porblemas con mis claves 
+temporales asi que usare una SSH
+
+3:31:19
+
+
+
