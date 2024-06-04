@@ -1,0 +1,42 @@
+Pull Request
+
+en verdad es que lo que baje y mejore ahora lo quero unir con
+el orignial
+para ello lo baje , puse en stache y luego en commits, ahora lo subo en Hub 
+ahora le mando al hub original mi hub para que revisen si les conviene
+si lo acepta es que ya contribui
+
+
+hub nuestro hub sira que nuestra rama esta adelantada al hub original, 
+le damos al boton de "contrinute" y le damos al botn verde de pull request
+
+
+la ventana que se abre nos verifica si puede haer una fusion en los codigos
+si el merge esta ok, podemos darle al born verde de crear pull request
+
+le damos un titulo y detalles , le damos al bon de crate pull request y full listo
+
+
+alli podemos ver la lista de los pull request y los abirtos y los cerrados
+podemos comparar los cmabios con la lineas verdes y rojas de toda la vida
+
+
+el usuario del rpo hub original le aparecera la 
+niitificacion del fork voy y reviso el codigo, puedo agregar reglas 
+de quien puede o no ver las configuraciones
+
+le doy en boton fusionar y despues a confirmar la fusuion
+
+podemos ir al repor y veremos que se actualizo, debido a la fusions
+en el coigo deebe aparecer que los cambios nuevos
+
+ahora vamos al hub secundario, el colaborado, si entra alliproyecto le 
+aparecera mensaje que esta una rama por detras, es asi que le damos al 
+boton sincronizar fork
+
+Aparecera la leyenda de que el repo se acctualixo por nuestro pull request
+
+
+eso sirve para proyectos grandes, donde mas gente nos puede ayudar
+
+03:47:00 fin
