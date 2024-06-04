@@ -1,0 +1,21 @@
+
+Los issues
+
+apartado rapido
+son un funcion , que permite hacer un seguimientos de tareas, 
+si debemos hacer un cambio o menjora debemos crar un issues
+
+
+por ejemolo un codigo grande, y hay una tarea pendiente
+ le asignamos un issua a una persona
+
+
+
+ dentro de los repos tenemos la seccion de issues
+alli clic  luego vamos a labels ya hay unas predefinidas
+
+los milestones son formas de agrupar los que trabajaremos con lables
+
+3:49:10
+
+
