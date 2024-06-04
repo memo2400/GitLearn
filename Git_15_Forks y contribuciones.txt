@@ -1,0 +1,37 @@
+forks
+es algo parecido a clonar un repo con clone,
+la diferencia, es que con el fork tomamos de git hub y lo copiamos a nuestro
+otro git hub, en el clone se bajaba a nuestro pc
+
+Vamos a git hub y a forks, vemos que no hay ningunno
+
+el forks es una bifurcacion,
+
+como es el mismo hub no me deja, salvo que estuviera en una organizacion
+
+vamos al repor de otra persona y damos abrir un codigo y luego al lapicito,
+allo debe decir fork y edit
+
+
+se abre ottra ventana y darle al boton verde, de fork
+luego guardamos los cambios
+
+
+o boy a la carpeta inicial del fork y le doy en fork
+facil
+
+
+03:35:59
+se hace un clones de nuestro nuevo fork, bajamos todo
+y ahora le damos en modificar alguno
+hacemos commit y push
+
+vamos al hub
+
+
+ya lo tenmos y sigue hacer un pull request de la siguiente seccion veremos eso
+
+3:38:02 fin
+
+
+
