@@ -63,11 +63,22 @@ con eso ya en automaticos se guarda el origin main
 y en posteriores solo usaremos git push a secas, 
 git push -u origin main
 
+eso es casi lo mimso ha hacer un, pero mas en resumen
+git push --set-upstream origin main
+
 
 al hacer la anterior linea tuve porblemas con mis claves 
 temporales asi que usare una SSH
 
 3:31:19
+
+
+ahora ya solo podemos actualizar con solo usar el comando
+git push
+
+
+ahora si terminamos
+03:32:15
 
 
 
