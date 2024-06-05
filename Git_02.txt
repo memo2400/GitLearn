@@ -26,3 +26,32 @@ vilvemos en el tiempo a un punto anterior
 git reset --hard 
 regresamos al ultimo codigo guardado commit,
 lo que hace es ignorar los git add, se recomienda con mucho cuidado
+osea la area de stagin se borra
+
+
+50:04
+
+si modificque un archivo y guarde commit,
+si edito ese archvio los guardo y doy
+git checkout, me regresa al archivo del commit
+
+
+podemos cambiar nombres de los archivos
+con este comando
+git mv ejemplo2.txt ejemplo3.txt
+
+
+git status
+y me sale que hubo un archivo renombrado pero que ya esta
+en area de staging
+
+
+ahora hago commit
+
+
+si ahora manualmente cambio el archvio ejemplo3
+por otro nombre como hola,hago comando y no pasa nada por que no estaba agregado
+git checkout hola
+
+
+52:12
