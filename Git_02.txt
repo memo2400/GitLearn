@@ -51,7 +51,22 @@ ahora hago commit
 
 si ahora manualmente cambio el archvio ejemplo3
 por otro nombre como hola,hago comando y no pasa nada por que no estaba agregado
-git checkout hola
+git checkout hola.txt
+
 
 
 52:12
+
+pero si hago, si se me regresa el ejemplo y ahora tengo los dos archivos
+el hola y el ejmplo 3
+git checkout ejemplo3.
+
+
+El modo CORTO DE  STATUS ES 
+sus resultados osn verde en stagin y rojo no agregado a staging
+$ git status -s
+$ git status --short
+
+
+54:37 fin
+

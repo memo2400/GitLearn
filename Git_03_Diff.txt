@@ -1,0 +1,59 @@
+Nos sirve para mostrar las diferencias que hay entre 
+uno a varios archviov s modificados
+
+git diff
+
+
+
+git show hola.txt
+me muestra las diferencias de ses archivo
+pero en el commit, si hago algo en el local no me sale nada
+la area de atain tambioen la ignora
+
+
+ahora aguego el archivo modificado  al staging
+con el comando veo las diferencias del satedg con el de commit
+los rojo es del commit y lo verde el staged
+git diff --staged
+
+
+
+Para comparar dos commits
+pero no se puede revisar al diferencia de muchos archivos asiq que haremos
+primero usamos
+git log
+
+59;05
+
+
+vemos los diferentes commits
+para que sea mas corto
+git log --oneline
+
+
+podemos configutar el numero de digitos de los ID commit
+el numero es numero de digitos
+git config --global core.abbrev 7
+
+
+
+git diff 3b44d7b f772e1f
+con este podemos ver la diferencia entres dos commits,
+para que jale bien debe ser 
+git diff IDviejo IDnuevo
+
+
+git diff --name-only 3b44d7b f772e1f
+con este vemos los archvips que hay cambiado entre
+commits
+
+
+$ git diff --word-diff 3b44d7b f772e1f
+con esta puedo hacer las diferencias entre 
+las lineas de codifo las verdes son las nuevas 
+si modificamos totlamente una linea en
+rojo sale el viejo (primer ID) y en verde el nuevo commit (segundo ID)
+
+1:06:20
+fin
+
