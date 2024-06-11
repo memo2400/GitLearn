@@ -1,0 +1,82 @@
+Con archivos se dara un ejemplo de python
+
+
+hago una nueva rama
+$ git switch -c banco_pruebas
+
+
+modifico mi archivo ya estando en la rama nueva
+lo agrego al area Stage
+Hago uin Commit
+
+
+ahora si ya termine y quiero reintegrar la rama al master para ello
+voy a ejecutar, para ver como estan los commits
+y el ultimo commit es de mi rama test
+$ git log --oneline
+
+
+con ello me muevo primero al main
+$ git switch main
+
+
+para meger hago, me sale el (commit main)...(comit de la rama)
+$ git merge banco_pruebas
+Updating 7f562e0cad..827b01e56f
+
+
+
+$ git log --oneline
+con este veo que se han fusionado los dos ramas
+827b01e56f (HEAD -> main, banco_pruebas) se modifica archivo en rama testing
+
+
+pero si ejecuto 
+veo que las dos ramas siguen existiendo
+ya que solo se fusuioinaron los commits
+$ git branch
+  banco_pruebas
+* main
+
+
+si veo el status veo que todo esta limpio
+git status
+$ git status -s
+
+
+###############
+DESHACER LA FUSION
+
+si nos equivocamos y deseamos regresar podemos hacer:
+donde el ID es el ultimo ID del master antes de hacer el Merge
+$ git reset --hard 7f562e0cad
+
+
+ejecutamos el log, y vemos que el commit de fusuin fue borrado
+$ git log --oneline
+7f562e0cad (HEAD -> main, origin/main) tercer commit
+c4772a6435 segundo commit
+d7963a04a7 primer commit
+
+
+si me cambio de rama, a la test
+alli siguen mis cambios intantos de la rama testing
+$ git switch banco_pruebas
+
+
+si veo el log , en esa ramas test todo esta normal
+osea se ven las de rama padre y la test
+$ git log --oneline
+827b01e56f (HEAD -> banco_pruebas) se modifica archivo en rama testing
+7f562e0cad (origin/main, main) tercer commit
+c4772a6435 segundo commit
+d7963a04a7 primer commit
+
+
+############################
+VOLVER A FUSIONAR
+
+1:55:00
+
+
+
