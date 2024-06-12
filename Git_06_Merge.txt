@@ -78,5 +78,25 @@ VOLVER A FUSIONAR
 
 1:55:00
 
+$ git merge banco_pruebas
+
+
+BORRO LA rama TESTING
+Y LOS CAMBIOS SIGUEN ESTANDO EN LA MASTER CON MERGE
+$ git branch -d banco_pruebas
+
+
+rEVISO EL LOG, Y LA RAM TEST YA NO EXISTE PERO SU ultimo
+COMMIT DE MERGE SI SE QUEDO EN LA  RAMA MASTER
+$ git log --oneline
+827b01e56f (HEAD -> main) se modifica archivo en rama testing
+7f562e0cad (origin/main) tercer commit
+c4772a6435 segundo commit
+d7963a04a7 primer commit
+
+
+1:56:00
+
+fin
 
 

@@ -27,8 +27,11 @@ muestra las ramas que tenemos
 
 01:36:00
 
+###############################
+BORRAR UNA BRANCH
 
-
+despues del -d "rama a o borrar "
+$ git branch -d banco_pruebas
 
 
 
