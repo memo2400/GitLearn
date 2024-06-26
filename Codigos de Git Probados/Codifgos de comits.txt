@@ -1,0 +1,57 @@
+
+codigo en linea 1661.  del la version Test comit
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            // le di doble clic
+        }
+
+
+
+#################################
+
+ADVERTENCIA
+Se dice que el reset no debe usarse a la ligera
+
+
+Regrese al commit de test de prueba, antes de quitar codigo sobrante
+git reset --hard 64a86794c5430c1608d59ad8b90d4ffb0513790f
+
+Regreso al comit de test
+git reset --hard 64a8679
+
+
+regreso al commit de borrado cod inservible
+git reset --hard 5fe4ea0
+
+
+Regreso al comit de borrado mobileye 
+git reset --hard 2d5f6e2
+
+regreso al comit ultimo de 2019
+git reset --hard ff80126
+
+regreso al Correccion de label12
+git reset --hard dfb8850
+
+git reset --hard 2236e7e
+
+#######################
+
+Nos permite cambia de forma ordenada
+ver los comits que descarte
+
+git reflog
+
+
+#para rehacer los cambios desde un commit determinado.
+git reflog –hard HEAT <clave>
+
+regreso al comit de borrado codigo inservible
+git reflog -hard -HEAT 5fe4ea0
+
+
+
+mas info
+
+https://www.atlassian.com/es/git/tutorials/rewriting-history/git-reflog

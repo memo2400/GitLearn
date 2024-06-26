@@ -1,0 +1,29 @@
+
+
+checar archivos
+git status
+
+
+argregar archivos modificados al repo
+git add
+
+
+hacer comit
+git commit
+
+
+(	guardar comentario de commit
+	oprimir "esq"
+
+	y lugo escribir 
+	":wq"
+
+	presionar "Enter"
+)
+
+
+Publicar en server
+git push
+
+
+

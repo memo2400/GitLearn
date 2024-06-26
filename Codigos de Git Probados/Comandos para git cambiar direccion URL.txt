@@ -1,0 +1,159 @@
+
+con este vemos que links tenemos dados de alta.
+git remote -v
+
+
+
+
+para cambiar direccion de repositorio, osea ya tenia uno viejo y ahora 
+apunto a uno nuevo en internet
+
+    git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+
+    yo use este http://192.168.10.66:8082/ingenieria/VectorMotum.git
+
+    // en 2024 use este
+    git remote set-url origin https://gitlab.tecnomotum.com/tecnomotum/idh/vectormotum.git
+    
+######################
+
+Para agregar un nuevo repo, se usa en la primera vez
+que se agrega el link
+
+git remote add origin http://192.168.10.66:8082/ingenieria/VectorMotum.git
+
+//2024 # no fue necesario ya lo tenia
+    git remote add origin https://gitlab.tecnomotum.com/tecnomotum/idh/vectormotum.git
+
+
+aqui verificamos que el link se guardo
+git remote -v
+
+
+##############
+
+como no tenia permisos de hacer push en la master hize esto 
+
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'
+
+git push --set-upstream origin master
+
+
+#################
+
+
+cuando no tuve aceso en otra app nueva
+
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+git push --set-upstream origin master
+
+#############
+
+comando para conocer que repo tenemos
+
+git remote show
+
+o este 
+
+git remote show origin
+
+############
+
+comandos para actualizar las ramas del repo del link
+
+actualizo ramas
+git branch update
+
+
+me movi a rama molbileye
+git branch --move eventos-mobileye
+
+muestra las ramas
+git branch -a
+
+borrar rama
+git branch -d nombre
+
+
+para forzar un push
+
+git push --force
+
+
+con este apunto a una rama del remote algo asi
+ git push origin HEAD:eventos-mobileye
+
+To push to the branch of the same name on the remote, use
+
+    git push origin HEAD
+
+
+#############
+
+Clave SSH
+
+abro cdm de windows
+escribo esto
+ssh-keygen -t ed25519 -C "<comment>"
+
+luego dos veces enter cuando sale eso
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/user/.ssh/id_ed25519):
+
+
+
+
+otra vez enter cuando sale este
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+
+
+
+el sistema responde eso
+
+Your identification has been saved in C:\Users\Tecnomotum IH/.ssh/id_ed25519.
+Your public key has been saved in C:\Users\Tecnomotum IH/.ssh/id_ed25519.pub.
+The key fingerprint is:
+SHA256:W/gTeEkC81ED/UCdNg+VXm0V1GxmEKHTzXECGpt1wCw primera llave
+The key's randomart image is:
++--[ED25519 256]--+
+|      o o==++=OXB|
+|       + .EBO+.+%|
+|        o ==o=.*o|
+|         = ...o  |
+|        S =      |
+|         = .     |
+|        . o      |
+|           .     |
+|                 |
++----[SHA256]-----+
+
+
+
+CONSOLA GIT
+
+en consola git copio mi llave que cree en la consola de windows
+cat ~/.ssh/id_ed25519.pub | clip
+
+
+##############################
+
+Para hacer push se introduce correo electronico y la pass del mismo
+
