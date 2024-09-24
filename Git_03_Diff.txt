@@ -58,3 +58,8 @@ rojo sale el viejo (primer ID) y en verde el nuevo commit (segundo ID)
 1:06:20
 fin
 
+$ git diff --word-diff 3b44d7b f772e1f -- archivo.txt
+vemos las diferencias entre 2 commits de un archivo en especifico.
+git diff IDviejo IDnuevo
+
+
