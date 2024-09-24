@@ -1,5 +1,6 @@
 Nos sirve para mostrar las diferencias que hay entre 
-uno a varios archviov s modificados
+uno a varios archviovs modificados pero que aun no estan en Stage
+vs el commit ultimo
 
 git diff
 
