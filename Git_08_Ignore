@@ -9,3 +9,6 @@ pero podemos acer que una exepcion para no ignorar todos los mp4.
 
 aqui vemos todos los archivos que tiene un determinado comiit
 git ls-tree -r --name-only ID
+
+parece que este agrega todo tambien
+git add .
