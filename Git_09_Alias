@@ -1,1 +1,13 @@
 Alias
+
+
+suponemos que tenemos este comando largo.
+git log --oneline --all --graph --pretty=format:"%C(auto)%h%d %s %C(black)%C(bold)%cr"
+
+
+para guardar el alias usamos.
+git config --global alias.log-mejorado "log --oneline --all --graph --pretty=format:'%C(auto)%h%d %s %C(black)%C(bold)%cr'" 
+
+
+para usarlo uso:
+git log-mejorado
