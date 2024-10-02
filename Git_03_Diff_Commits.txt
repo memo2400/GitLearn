@@ -36,6 +36,14 @@ vemos los comiits de todoo
 git log --oneline --all 
 
 
+para ver en forma grafica las ramas
+git log --oneline --all --graph
+
+
+
+para ver todo hasta con tiempo de commits
+git log --oneline --all --graph --pretty=format:"%C(auto)%h%d %s %C(black)%C(bold)%cr"
+
 
 podemos configutar el numero de digitos de los ID commit
 el numero es numero de digitos
