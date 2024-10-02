@@ -70,3 +70,7 @@ $ git status --short
 
 54:37 fin
 
+
+borra el ultimo commit de manera definitiva.
+git reset --hard HEAD~1
+
