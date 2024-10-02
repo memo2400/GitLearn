@@ -32,6 +32,11 @@ para que sea mas corto
 git log --oneline
 
 
+vemos los comiits de todoo
+git log --oneline --all 
+
+
+
 podemos configutar el numero de digitos de los ID commit
 el numero es numero de digitos
 git config --global core.abbrev 7
