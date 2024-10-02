@@ -4,6 +4,7 @@ si tenemos variaso cambios en una misma linea,
 como cambiar el saludo 1, que era de la master,
 en la test pónemos saludo2 y en la master saludo3.
 
+
 al momento de unirse entonces aparece el merge
 
 aparece en verde y azuul los cambios.
@@ -18,14 +19,20 @@ en esta ventana podemos aceptar y desaceptar los cambios en la parte de abajo
 sale cual es el resultado final, si le damos al boton azul, final.
 
 
+
+Se pueden tener diferentes combianciones de aceptar, dependiendo de 
+cual lado le demos aceptar, debemos elegir el que mas nos conviene.
+
+
 cuando ya tengamos nuestra eleccion
 comlit merge
 y despues creamos un commits.
 
 y luego push
 
+si hicimos la fusion en el git bash,  el comando a utilizar es, 
+$ git merge --continue
 
 
 
-Se pueden tener diferentes combianciones de aceptar, dependiendo de 
-cual lado le demos aceptar, debemos elegir el que mas nos conviene.
+
