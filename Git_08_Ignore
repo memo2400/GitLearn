@@ -12,3 +12,5 @@ git ls-tree -r --name-only ID
 
 parece que este agrega todo tambien
 git add .
+
+02:15:00
