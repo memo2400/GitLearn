@@ -1,1 +1,9 @@
 Ignore
+
+Podemos ignoirar cosas agregandolas al archivo de ignorar,
+
+*.mp4
+ignora todos los mp4.
+
+pero podemos acer que una exepcion para no ignorar todos los mp4.
+
