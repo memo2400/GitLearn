@@ -1,0 +1,33 @@
+Como hacer un merge sin hacer commits, usado
+para limpiar un codigo basura a la hora de hacer merge con 
+la rama principal.
+
+La opción --no-commit te permite hacer un merge sin que Git haga un commit automático, 
+lo que te da la posibilidad de revisar y seleccionar los archivos antes de 
+finalizar la operación
+
+$ git merge --no-commit --no-ff rama_fusionar
+
+
+ahora se nos mandan a la area de staging los
+archivos nuevos, alli podemos verlos y elegir cual
+queremos que se quede
+
+
+$ git status
+
+Si quieres quedarte con ciertos archivos o descartarlos, puedes usar git 
+checkout para recuperar versiones específicas desde el commit anterior 
+(HEAD) o desde otra rama.
+
+
+git checkout -- archivo.txt
+
+Si, por ejemplo, quieres recuperar la versión de un archivo desde 
+la rama original (antes del merge):
+
+
+$ git checkout HEAD -- <archivo>
+
+
+
