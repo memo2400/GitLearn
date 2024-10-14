@@ -2,9 +2,13 @@ Como hacer un merge sin hacer commits, usado
 para limpiar un codigo basura a la hora de hacer merge con 
 la rama principal.
 
+Se debe hacer una nueva rama clon, de ma master, como master_mergin_branch.
+
+
 La opción --no-commit te permite hacer un merge sin que Git haga un commit automático, 
 lo que te da la posibilidad de revisar y seleccionar los archivos antes de 
-finalizar la operación
+finalizar la operación.
+
 
 $ git merge --no-commit --no-ff rama_fusionar
 
@@ -30,4 +34,6 @@ la rama original (antes del merge):
 $ git checkout HEAD -- <archivo>
 
 
+Lo que hice al final fue el, quitar del area de stagin lo que venos a descartar
+y lo que si se quedo se agrego al commit de merge, y listo.
 
