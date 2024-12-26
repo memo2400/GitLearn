@@ -12,6 +12,10 @@ git config --user
 
 git config --global user.email "guillermorosas00@gmail.com"
 
+###########
+ver los correos asignados
+
+$ git config --list
 
 
 clear limpiar
