@@ -1,0 +1,36 @@
+
+
+git rebase -i HEAD~4
+Hago cambios de historia en los ultimos 4 commits
+
+
+se habre editor texto, se muestran los commits, cambiamos
+la palabra "pick" por la accion que queramos usar, 
+he usado mas #reword y #edit
+    
+    pick 78276207bf tercer commit, agrego array_dos
+    pick 59b886e43d cuarto commit, agrego saludo
+    
+    # Rebase 9be00c98cd..59b886e43d onto 9be00c98cd (2 commands)
+    #
+    # Commands:
+    # p, pick <commit> = use commit
+    # r, reword <commit> = use commit, but edit the commit message
+    # e, edit <commit> = use commit, but stop for amending
+    # s, squash <commit> = use commit, but meld into previous commit
+    # f, fixup [-C | -c] <commit> = like "squash" but keep only the previous
+
+
+Edit
+    Saldra en la consola una ramma llamada " (master|REBASE 1/2)"
+    con esta opcion modificamos todo, se abre el comit en cuestion
+    agregamos o quitamos codigo, al final los cambios los mandamos al
+    area de Stage, y podemos dar al boton azul "continuar" de VSC, o
+    podemos ejecutar ese comando en consola
+
+    $ git rebase --continue
+
+    con ello acaba editor de codigo y se puede abrir el editor de mensaje
+    de commit, entonces alli acabamos y listo, vamos al siguiente commit, y 
+    asi sucesivamente
+
