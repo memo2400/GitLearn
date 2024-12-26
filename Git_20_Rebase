@@ -1,4 +1,6 @@
 
+ALERTAAAA
+Solo usarlo en las ramas individuales, las publicas main, no usarlo 
 
 git rebase -i HEAD~4
 Hago cambios de historia en los ultimos 4 commits
