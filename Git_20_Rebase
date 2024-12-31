@@ -43,3 +43,11 @@ Edit
     de commit, entonces alli acabamos y listo, vamos al siguiente commit, y 
     asi sucesivamente
 
+Una vez que terminamos el rebaser (cambiar hostoria) en nuestro repo local
+podemos subor los cambios a gitbuh, con 
+$ git push --force.
+
+Para gentes que trabajan en la rama desde el local y su remoto
+a sido rebaseado, solo deben ejecutar en su propia pc el commando
+$ git rebase
+
