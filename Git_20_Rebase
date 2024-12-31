@@ -22,6 +22,13 @@ he usado mas #reword y #edit
     # s, squash <commit> = use commit, but meld into previous commit
     # f, fixup [-C | -c] <commit> = like "squash" but keep only the previous
 
+Squash
+    nos permite fusionar el ultimo commit con el penultimo. se boora el ultimo.
+    Despues de fusionarlo, se nos fusionaran los nombres de los dos commits
+    se recomienda borrar uno de los dos nombres.
+     
+    Saldra algo como esto: 
+        Successfully rebased and updated refs/heads/MDW-1205_map-new-events.
 
 Edit
     Saldra en la consola una ramma llamada " (master|REBASE 1/2)"
