@@ -3,5 +3,42 @@ git stash
 
 
 $ git stash -u
+Guardar cambios incluyendo archivos no rastreados (untracked)
+es decir, nuevos archivos sin git add
+
+
+$ git stash -a
+inlcuye a los archivos ignorados (ignored).
+
+
+$ git stash list
+Ver el contenido del stash
+  stash@{0}: On main: Cambios importantes
+  stash@{1}: On main: Corrección rápida
+
+
+
+$ git stash apply
+Aplica el stash más reciente (stash@{0}) sin eliminarlo de la lista.
+
+
+$ git stash apply stash@{8}
+para un stash especifico
+
+
+$ git stash pop
+Aplica el stash más reciente y lo elimina de la lista
+
+
+$ git stash pop stash@{1}
+especificar un stash en particular
+
+
+$ git stash drop stash@{0}
+Elimina un stash específico de la lista.
+
+
+$ git stash clear
+Elimina todo los stashes
 
 
