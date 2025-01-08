@@ -42,3 +42,11 @@ $ git stash clear
 Elimina todo los stashes
 
 
+
+#########################################
+
+$ git stash save "Mensaje descriptivo"
+crea un mensjae del stash
+
+
+
