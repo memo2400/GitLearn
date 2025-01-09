@@ -20,6 +20,23 @@ ver los correos asignados
 
 $ git config --list
 
+Ver los correos asignados uno por uno
+git config --local user.email
+
+git config --global user.email
+
+git config --system user.email
+
+
+ver todos los niveles de configuracion
+git config --list --show-origin
+
+Este solo muestra el local
+git config --get user.email
+
+
+
+#######################
 
 clear limpiar
 
