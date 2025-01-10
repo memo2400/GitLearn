@@ -1,1 +1,9 @@
 
+git rebase -i <commit_anterio>
+
+git rebase -i HEAD~1
+si uso este edo elegir e de edit
+
+cuando este el git rebase en procepo en la consola de git uso
+git commit --amend --author="Nuevo Autor <nuevoautor@example.com>"
+
