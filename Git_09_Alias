@@ -11,3 +11,7 @@ git config --global alias.log-mejorado "log --oneline --all --graph --pretty=for
 
 para usarlo uso:
 git log-mejorado
+
+
+Ver todos los Alias que hay en Git
+$ git config --list --show-origin
