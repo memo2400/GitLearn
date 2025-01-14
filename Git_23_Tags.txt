@@ -1,1 +1,30 @@
 
+Tag anotado:
+git tag -a nombre-del-tag -m "Mensaje del tag"
+git tag -a v1.0 -m "Primera versión estable"
+
+
+git tag -a v1.0.0 -m "Primera versión"
+git push origin v1.0.0
+
+
+Ver los tags existentes
+git tag
+
+
+Si deseas etiquetar un commit que no sea el más reciente:
+git tag nombre-del-tag hash-del-commit
+Ejemplo:
+git tag v0.9 abc1234
+
+
+4. Subir los tags al repositorio remoto
+Por defecto, los tags no se envían automáticamente al remoto. Debes subirlos explícitamente:
+$ git push origin nombre-del-tag
+ejemplo:
+$ git push origin v1.0
+
+Subir todos los tags
+$ git push --tags
+
+
