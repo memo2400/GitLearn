@@ -5,6 +5,7 @@ git rebase -i HEAD~1
 si uso este edo elegir e de edit
 
 cuando este el git rebase en procepo en la consola de git uso
+git commit --amend --author="Nuevo Autor <memorosas.00@gmail.com>"
 git commit --amend --author="Nuevo Autor <guillermorosas00@gmail.com>"
 
 y al final le doy en 
