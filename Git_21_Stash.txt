@@ -49,4 +49,7 @@ $ git stash save "Mensaje descriptivo"
 crea un mensjae del stash
 
 
+$ git stash save -u "Mensaje descriptivo"
+crea un mensjae del stash de todo hasta lo no tracked
+
 
