@@ -20,4 +20,15 @@ git branch
 * rama1
   main
 
+#############################################################
+
+Subir rama nueva con push
+
+$ git push origin mi-rama-nueva
+
+
+Si mas adelante solo se quiere hacer simplemente git push sin especificar rama:
+
+$ git push --set-upstream origin mi-rama-nueva
+
 
