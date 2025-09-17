@@ -1,0 +1,22 @@
+-tengo master
+
+-creo rama 2
+
+-hago cambios en rama 2
+
+-hago cambios en rama master
+
+-regreso a rama2
+git switch rama2
+
+-me coloco en rama2 y hago un 
+$ git rebase master
+
+-regreso a master
+git switch master
+
+-ya estando en master hago
+$ git merge rama2
+
+- Y listo tengo mi rama Master con un historico limpio
+
