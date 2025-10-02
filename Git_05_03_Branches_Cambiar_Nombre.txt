@@ -1,0 +1,34 @@
+
+Estar en la rama a cambiar el nombre
+$ git checkout old-name
+
+
+
+
+mostras todas ramas locales
+$git branch --list
+
+
+Nuevo nombre
+$ git branch -m new-name
+
+Ver todas las ramas locales y remotas para verificar.
+$ git branch -a
+
+
+################################
+
+Cambiar nomnbre a Rama en Remoto
+
+primero debimos cambiar el nombre de la rama,
+del paso anterior
+$ 
+
+
+Luego borra la rama anterior y aplica push a la nueva.
+$ git push origin --delete nombre-anterior
+
+
+Restablece la rama ascendente para tu nueva rama local 
+y estará listo:
+$ git push origin -u nombre-nuevo
