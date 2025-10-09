@@ -37,34 +37,34 @@ podemos hacer un push desde git para agragarlo
 
 usamoa eso 
 origin= en lugar de origin podemos poner el nombre que se nos antoje
-git remote add origin https://github.com/memo2400/Ejemplo_Local_a_Remoto.git
+$ git remote add origin https://github.com/memo2400/Ejemplo_Local_a_Remoto.git
 
 
-con esto vemos, cque cosas podemos hacer con nuestro repo remoto
+con esto vemos, que cosas podemos hacer con nuestro repo remoto
 si nuestro repo no tiene remoto no aparecera nada
-git remote -v
+$ git remote -v
 
 
 despues usamos la segunda sugerida
-git branch -M main
+$ git branch -M main
 
 
 ahora vamos a gregar el push si, solo hacemos
 nos sale un mensaje de error
-git push
+$ git push
 
 
 esta no es muy recomandable, porque cada vez que querramos hacer un pussh
 se debe escribir todo
-git push origin main
+$ git push origin main
 
 
 con eso ya en automaticos se guarda el origin main
-y en posteriores solo usaremos git push a secas, 
-git push -u origin main
+y en posteriores solo usaremos $ git push a secas, 
+$ git push -u origin main
 
 eso es casi lo mimso ha hacer un, pero mas en resumen
-git push --set-upstream origin main
+$ git push --set-upstream origin main
 
 
 al hacer la anterior linea tuve porblemas con mis claves 
@@ -74,11 +74,18 @@ temporales asi que usare una SSH
 
 
 ahora ya solo podemos actualizar con solo usar el comando
-git push
+$ git push
 
 
 ahora si terminamos
 03:32:15
+
+#################################
+
+CASO donde la rama secundaria no se deje subir:
+fue porque la rama secundaria se queria revolver con main
+$ git push origin HEAD
+
 
 
 
