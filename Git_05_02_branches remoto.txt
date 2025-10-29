@@ -31,4 +31,23 @@ Si mas adelante solo se quiere hacer simplemente git push sin especificar rama:
 
 $ git push --set-upstream origin mi-rama-nueva
 
+#############################################################
+
+Para ver las ramas con su remote asociado
+$ git branch -vv
+
+CASO 1
+Crear la rama remota correcta (si aún no existe)
+Sube rama local al remoto
+$ git push -u origin RamaNueva
+
+CASO 2
+Si la rama ya existe y quieres forzar el seguimiento
+$ git branch --set-upstream-to=origin/desarrollo desarrollo
+
+FINAL
+Revisar las ramas con su remote asociado
+$ git branch -vv
+
+
 
