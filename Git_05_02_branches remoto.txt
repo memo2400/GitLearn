@@ -23,7 +23,8 @@ git branch
 #############################################################
 
 Subir rama nueva con push
-
+(No sirve si la rama no esta creada) fatal: unable to access 'https://github.com/memo2400/climaApp.git/': 
+Failed to connect to github.com port 443 after 21055 ms: Couldn't connect to server
 $ git push origin mi-rama-nueva
 
 
