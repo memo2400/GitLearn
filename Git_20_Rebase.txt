@@ -37,7 +37,14 @@ Edit
     area de Stage, y podemos dar al boton azul "continuar" de VSC, o
     podemos ejecutar ese comando en consola
 
+    Despues de hacer nuestros cambios usamos esto para cambiar el commit nuevo
+    en lugar del viejo 
+    $ git commit --amend
+
+
+    Luego ahora si hacemos:
     $ git rebase --continue
+
 
     con ello acaba editor de codigo y se puede abrir el editor de mensaje
     de commit, entonces alli acabamos y listo, vamos al siguiente commit, y 
