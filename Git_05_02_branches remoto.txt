@@ -50,5 +50,16 @@ FINAL
 Revisar las ramas con su remote asociado
 $ git branch -vv
 
+##############################################################
+
+BORRADO DE RAMAS EN LOCAL Y REMOTO
+
+Eliminar la rama en el repositorio local: una vez que estés en la rama principal MAIN, 
+puedes eliminar la rama con el comando 
+
+$ git branch -d nombre-de-rama
 
 
+Eliminar la rama en el repositorio remoto: 
+
+$ git push origin --delete nombre-de-rama
