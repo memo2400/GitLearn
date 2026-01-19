@@ -1,0 +1,8 @@
+Borrar la rama remote, cambiar "origin" por el nombre de nuestro remoto
+$ git remote rm origin
+
+Ver los remotor que tenemos en lista
+$ git remote -v
+
+Muestra las URLs que Git ha asociado al nombre y que serán usadas al leer y escribir en ese remoto:
+$ git remote -v
