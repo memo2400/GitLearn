@@ -6,3 +6,7 @@ $ git remote -v
 
 Muestra las URLs que Git ha asociado al nombre y que serán usadas al leer y escribir en ese remoto:
 $ git remote -v
+
+Para agregar el seguimiento del remoto a tu rama local
+con eso ya sirve el pull y fetch
+$ git branch --set-upstream-to=origin/rama master
