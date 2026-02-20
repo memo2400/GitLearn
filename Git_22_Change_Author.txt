@@ -4,12 +4,15 @@ git rebase -i <commit_anterio>
 git rebase -i HEAD~1
 si uso este edo elegir e de edit
 
-cuando este el git rebase en procepo en la consola de git uso
+Cambio el autor:
+git commit --amend --author="memorosas.00@gmail.com"
+
+
+Este ya no funciona cuando este el git rebase en procepo en la consola de git uso
 git commit --amend --author="<memorosas.00@gmail.com>"
 git commit --amend --author="<guillermorosas00@gmail.com>"
 
-  a veces solo funciona el:
-  git commit --amend --author="memorosas.00@gmail.com"
+
 
 y al final le doy en 
 git rebase --continue
