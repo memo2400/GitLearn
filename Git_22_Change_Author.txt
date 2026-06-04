@@ -5,6 +5,11 @@ git rebase -i HEAD~1
 si uso este edo elegir e de edit
 
 Cambio el autor:
+Ahora sirve:
+git commit --amend --author="Guillermo Rosas <memorosas.00@gmail.com>"
+
+
+YA no sirve 4 Jun 2026:
 git commit --amend --author="memorosas.00@gmail.com"
 
 
