@@ -19,6 +19,8 @@ es decir, nuevos archivos sin git add
 $ git stash -a
 inlcuye a los archivos ignorados (ignored).
 
+$ git stash --keep-index
+incluye solo los que esta fuera del area stagin
 
 $ git stash list
 Ver el contenido del stash
